@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ContactForm2 from "../organisms/ContactForm2";
 
 function TrabajaConNosotros() {
   return (
-    <div>TrabajaConNosotros</div>
-  )
+    <>
+      <ContactForm2 />
+    </>
+  );
 }
 
-export default TrabajaConNosotros
+export default TrabajaConNosotros;

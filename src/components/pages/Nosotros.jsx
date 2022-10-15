@@ -7,7 +7,6 @@ import Footer from "../organisms/Footer";
 function Nosotros() {
   return (
     <>
-      <Carousel />
       <About />
       <Categories />
       <Footer />

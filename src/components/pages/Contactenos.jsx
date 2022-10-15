@@ -1,13 +1,13 @@
 import React from "react";
-import ContactForm from "../organisms/ContactForm";
+import Categories from "../organisms/Categories";
+import ContactForm2 from "../organisms/ContactForm2";
 import Footer from "../organisms/Footer";
 
 function Contactenos() {
   return (
-    <>
-      <ContactForm />
-      <Footer />
-    </>
+    <div>
+      <ContactForm2 />
+    </div>
   );
 }
 

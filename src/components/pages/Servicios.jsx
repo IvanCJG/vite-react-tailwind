@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import ProductGrid from "../organisms/ProductGrid";
 
 function Servicios() {
   return (
-    <div>Servicios</div>
-  )
+    <>
+      <div>Servicios</div>
+      <ProductGrid />
+    </>
+  );
 }
 
-export default Servicios
+export default Servicios;

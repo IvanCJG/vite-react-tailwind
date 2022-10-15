@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Lista from "../molecules/List";
+import ContactForm2 from "../organisms/ContactForm2";
 
 function Directorio() {
   return (
-    <div>Directorio</div>
-  )
+    <>
+      <Lista />
+    </>
+  );
 }
 
-export default Directorio
+export default Directorio;
